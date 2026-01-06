@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STaaS</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+    <h1>STaaS</h1>
+</header>
+
+<main>
+    <!-- Auth Section -->
+    <section id="auth-section">
+        <h2>Login or Register</h2>
+        <input id="username" type="text" placeholder="Username" />
+        <input id="password" type="password" placeholder="Password" />
+        <input id="quota" type="number" placeholder="Storage Quota (bytes)" />
+        <div class="buttons">
+            <button id="registerBtn">Register</button>
+            <button id="loginBtn">Login</button>
+        </div>
+        <p id="auth-msg"></p>
+    </section>
+
+    <!-- Dashboard -->
+    <section id="dashboard" class="hidden">
+        <h2>Welcome, <span id="userDisplay"></span></h2>
+        <!-- Logout button in its own row -->
+        <div class="action-row">
+            <button id="logoutBtn">Logout</button>
+        </div>
+        <div id="storage-summary"></div>
+
+        <div class="action-row">
+            <input id="folderName" type="text" placeholder="Folder name" />
+            <button id="createFolderBtn">Create Folder</button>
+        </div>
+
+        <div class="action-row">
+            <input id="uploadFolderName" type="text" placeholder="Folder name for upload" />
+            <input id="fileInput" type="file" />
+            <!--  Drag-and-drop zone beside the file input -->
+            <div id="dropZone">Click or drag files here</div>
+            <button id="uploadFileBtn">Upload File</button>
+        </div>
+
+        <div class="action-row">
+            <input id="renameFolderName" type="text" placeholder="Folder name" />
+            <input id="oldFileName" type="text" placeholder="Old file name" />
+            <input id="newFileName" type="text" placeholder="New file name" />
+            <button id="renameFileBtn">Rename File</button>
+        </div>
+
+        <div class="action-row">
+            <input id="deleteFolderName" type="text" placeholder="Folder name to delete" />
+            <button id="deleteFolderBtn">Delete Folder</button>
+        </div>
+
+        <div class="action-row">
+            <input id="deleteFileFolder" type="text" placeholder="Folder name" />
+            <input id="deleteFileName" type="text" placeholder="File name" />
+            <button id="deleteFileBtn">Delete File</button>
+        </div>
+
+        <div class="action-row">
+            <button id="refreshBtn">Refresh Drive</button>
+        </div>
+
+        <p id="dashboard-msg"></p>
+
+        <!-- Drive Area -->
+        <div id="drive-container">
+            <h3>Drive</h3>
+            <div id="drive-content"></div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>INFO class project</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
