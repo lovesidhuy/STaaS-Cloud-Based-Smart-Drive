@@ -96,6 +96,8 @@ AWS VPC → public + private subnets, NAT gateway, security groups
 | Nginx    | Part2infra.py  | Optional bastion proxy                     |
 
 ---
+<img width="2490" height="1400" alt="527941001-b33dc15d-0573-490e-9bf1-22a301e8de13" src="https://github.com/user-attachments/assets/2547c132-fa14-461f-be26-8651af1d2519" />
+<img width="1201" height="581" alt="527940963-adc7a5ba-43e7-46c4-8e34-71561705c5fc" src="https://github.com/user-attachments/assets/9f09a8de-5e01-45de-960e-0cb2c0dffa86" />
 
 ## Features
 
