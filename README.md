@@ -4,12 +4,11 @@
 
 ### Scalable • Secure • AWS-Powered • Full-Stack Cloud Storage Solution
 
-> 📄 **Project Report:** [View Full Technical Report](./Report%20(cloud_computing).pdf)
+> 📄 **Project Report:** [View Full Technical Report](./cloud_computing_report.pdf)
 
-A cloud-based smart drive application with Java Spring Boot backend, MongoDB, AWS S3 integration, and a web frontend. Includes Python infrastructure scripts for AWS provisioning.
+A cloud-based smart drive application with Java Spring Boot backend, MongoDB, AWS S3 integration, and a modern web frontend. Includes Python infrastructure scripts for AWS provisioning and automation.
 
 ---
-
 ## Prerequisites
 
 - Java 22, Maven, Docker  
