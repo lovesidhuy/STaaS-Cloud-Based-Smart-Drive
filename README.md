@@ -1,5 +1,4 @@
 
-```markdown
 # 🚀 STaaS — Enterprise Cloud-Based Smart Drive Platform
 
 ### Scalable • Secure • AWS-Powered • Full-Stack Cloud Storage Solution
